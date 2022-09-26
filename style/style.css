@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@470&display=swap');
+
+* {
+    font-family: 'Open Sans';
+}
+
+html{
+    background-color: pink;
+    color: white;
+}
+
+.hdr{
+    color: white;
+}
+
+.but_1b1b1b{
+    background-color: #1b1b1b;
+    border-color: #1b1b1b;
+}
