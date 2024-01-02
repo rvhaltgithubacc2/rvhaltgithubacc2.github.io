@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://hoelangoverleeftdedoorstartvanreduxal.nl/style.css">
+        <title>Ehm</title>
+    </head>
+    <body>
+        <p class="centered_text">
+            <br><br><br><br><br><br><br><br>
+        </p>
+        <h1 id="title" class="centered_text"></h1>
+        <script>
+            var num = Math.floor(Math.random() * 4);
+            let final = null;
+            if (num == 0)
+            {
+              final = "Tip: wacht heel effe"
+            }
+            if (num == 1)
+            {
+              final = "Site is down bad"
+            }
+            if (num == 2)
+            {
+              final = "De site heeft een kater"
+            }
+            if (num == 3)
+            {
+              final = "Oepsie woepsie! De website is stukkie wukkie!"
+            }
+            document.getElementById("title").innerHTML = final;
+        </script>
+        <section>
+            <p class="centered_text">
+              hoelangoverleeftdedoorstartvanreduxal.nl is momenteel niet beschikbaar.<br>
+              Mijn excuses voor eventueel ongemak.<br>
+              <br>
+              Probeer het later opnieuw.<br>
+              <br>
+            </p>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@470&display=swap');
+
+* {
+    font-family: 'Open Sans';
+}
+
+html{
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.but_1b1b1b{
+    background-color: #1b1b1b;
+    border-color: #1b1b1b;
+}
+
+.centered_text{
+    text-align: center;
+}
+
+.left_text{
+    text-align: left;
+}
+
+.red_bar{
+    text-align: center;
+    background-color: red;
+    color: black;
+    padding: 10px 0;
+}
+
+.lime_bar{
+    text-align: center;
+    background-color: lime;
+    color: black;
+    padding: 10px 0;
+}
