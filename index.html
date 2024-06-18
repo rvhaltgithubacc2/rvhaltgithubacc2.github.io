@@ -7,107 +7,12 @@
     </head>
     <body>
       <header>
-          <h4 class="lime_bar">Dit is de testversie van hoelangoverleeftdedoorstartvanreduxal.nl. <a href="https://hoelangoverleeftdedoorstartvanreduxal.nl">Terug naar main</a></h4>
+          <h4 class="red_bar">Vanaf 1 juli 2024 stuurt deze site je door naar <a href="https://hoelangoverleeftdedoorstartvanreduxal.nl">hoelangoverleeftdedoorstartvanreduxal.nl</a></h4>
       </header>
         <p class="centered_text">
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </p>
-        <h3 class="centered_text">Hoe lang overleeft de doorstart van Redux al?</h3>
-        <section>
-            <h1 id="time" class="centered_text">Niet zo heel lang, namelijk...</h1>
-        </section>
-        <p class="centered_text">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </p>
-        <p id="wjd" class="centered_text">Wist je dat...</p>
-        <p id="randomfact" class="centered_text">...</p>
-        <script>
-            var timer = setInterval(function() {
-            
-              var date = new Date("July 3, 2023 9:00:00").getTime();
-              var datenow = new Date().getTime();
-                
-              var dist = date - datenow
-                
-              var days = Math.floor(dist / (-1000 * 60 * 60 * 24));
-              var hours = Math.floor((dist % (-1000 * 60 * 60 * 24)) / (-1000 * 60 * 60));
-              var minutes = Math.floor((dist % (-1000 * 60 * 60)) / (-1000 * 60));
-              var seconds = Math.floor((dist % (-1000 * 60)) / -1000);
-              let dagen = null;
-              let uren = hours + " uur, ";
-              let minuten = null;
-              let seconden = null;
-              if (days == 1){
-                dagen = days + " dag, "
-              }
-              else{
-                dagen = days + " dagen, ";
-              }
-              if (minutes == 1){
-                minuten = minutes + " minuut en "
-              }
-              else{
-                minuten = minutes + " minuten en ";
-              }
-              if (seconds == 1){
-                seconden = seconds + " seconde."
-              }
-              else{
-                seconden = seconds + " seconden.";
-              }
-              let final = dagen + uren + minuten + seconden;
-                
-              document.getElementById("time").innerHTML = final;
-                
-            }, 1000);
-        </script>
-        <script>
-            var timer = setInterval(function() {
-            
-              var date = new Date("July 3, 2023 9:00:00").getTime();
-              var datenow = new Date().getTime();
-                
-              var dist = date - datenow
-                
-              var seconds = Math.floor((dist % (-1000 * 60)) / -1000);
-              let final = null;
-              if (seconds < 61)
-              {
-                final = "Redux terug is?"
-              }
-              if (seconds < 51)
-              {
-                final = "Redux maarliefst een week niks zei?"
-              }
-              if (seconds < 41)
-              {
-                final = "Redux een doorstart heeft gemaakt?"
-              }
-              if (seconds < 31)
-              {
-                final = "je met het houden van overmatig veel giveaways heel snel blut bent?"
-              }
-              if (seconds < 21)
-              {
-                final = "Kabouterdans een tering goeie vibe is tijdens het kutten met JavaScript en HTML?"
-              }
-              if (seconds < 11)
-              {
-                final = "deze website met enorm veel liefde het internet op gepleurd is?"
-              }
-              if (seconds < 6)
-              {
-                document.getElementById("wjd").innerHTML = "'Aandeelhoudersvergadering'"
-                final = "- Lon, 30 mei 2023"
-              }
-              else
-              {
-                document.getElementById("wjd").innerHTML = "Wist je dat..."
-              }
-                
-              document.getElementById("randomfact").innerHTML = final;
-                
-            }, 5000);
-        </script>
+        <h2 class="Deze website is inactief</h2>
+        <p class="centered_text">Deze website is op 18 juni 2024 inactief gesteld omdat deze onnodig is gebleken.<br>We heten je van harte welkom op <a href="https://hoelangoverleeftdedoorstartvanreduxal.nl">hoelangoverleeftdedoorstartvanreduxal.nl</a>.</p>
     </body>
 </html>
